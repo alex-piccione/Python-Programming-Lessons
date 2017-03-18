@@ -19,8 +19,9 @@ If you run "main.py" it just execute the main() program that show ""
 
 (not immediate to set)
 To "run" something you need to configure it in the "Configurations".
-Both "main.py" and "test.py" can be runned.
-If you run "main.py" it just execute the main() prgram that
+Both "main.py" and "test.py" can be run.
+If you run "main.py" it just execute the main() prgram showing the wecome text and "Press any key to close".
+If you run the test.py it executes all the test cases and esturn he result in the output console.
 
 You have to create a configuration for "Python" and select "test.py" for 
 tu run the test.py 
