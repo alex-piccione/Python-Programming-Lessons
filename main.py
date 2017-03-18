@@ -1,13 +1,18 @@
 def main():
 
+    # to run the code read the README file
 
-    # test 
-
-
+    print("Welcome to lesson 1 !!!")
+    print("\n\n")
     print("Press any key to close...")
     input()
 
-
+'''
+This function is the solution to the problem.
+To run it it must be called, as it is done in test.py.
+Example:
+result = get_max_distances(distances, cities, distance_limit)
+'''
 def get_max_distances(distances, cities, distance_limit):
     current_distance = 0
     city_counter = 0
