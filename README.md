@@ -10,6 +10,7 @@ Python programming lessons for beginners
 
 - Write and run your "Hello World" in Python
 - Kata [Multiply](http://www.codewars.com/kata/multiply)
+- Kata [Highest and Lowest]
 - Kata ["Best travel"](https://www.codewars.com/kata/best-travel/python)
 - Kata ["Can you get the loop ?"](http://www.codewars.com/kata/can-you-get-the-loop)
 - Take [this blog post](https://blog.teowaki.com/2016/07/21/fun-with-theresa-mays-first-speech-as-mp-and-the-google-cloud-speech-and-natural-language-apis/) as an idea, it is about Google Speech API.
