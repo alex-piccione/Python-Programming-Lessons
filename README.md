@@ -1,4 +1,4 @@
-# Python-Programming-Lessons
+# Python Programming Lessons
 Python programming lessons for beginners
 
  # Abstract
@@ -34,12 +34,10 @@ Python programming lessons for beginners
    Another way to avoid conflict is to "revert" (or "discard" or "undo") all or part of the changes done. Sometime we have changes that we haven't done intentionally or that we want to cancel.  
    It is possible to mix both the 2 ways to solve the conflicts: merge some files (resolve the conflicts choosing which line will be selected for the final version) and delete some changes.  
  
-**Q. How to run the code**
-
-**A.**
-main.py: this is our "program"
-test.py: this is the test that prove that the program works (or fail)
-
+**Q. How to run the code**  
+**A.**  
+main.py: this is our "program"  
+test.py: this is the test that prove that the program works (or fail)  
 Both "main.py" and "test.py" can be run.
 If you run "main.py" it just execute the main() program that shows "Python lesson".
 If you run test.py it execute a predefined list of tests against the implemented function and shows the results.
