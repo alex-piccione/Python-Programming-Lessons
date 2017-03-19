@@ -8,11 +8,13 @@ Python programming lessons for beginners
 
 # Topics
 
-- Kata [Multiply]()
+- Write and run your "Hello World" in Python
+- Kata [Multiply](http://www.codewars.com/kata/multiply)
 - Kata ["Best travel"](https://www.codewars.com/kata/best-travel/python)
+- Kata ["Can you get the loop ?"](http://www.codewars.com/kata/can-you-get-the-loop)
 - Take [this blog post](https://blog.teowaki.com/2016/07/21/fun-with-theresa-mays-first-speech-as-mp-and-the-google-cloud-speech-and-natural-language-apis/) as an idea, it is about Google Speech API.
 - How find and use the [DOCS](http://docs.python.org) (Python documentation). (example: str() can raise a TypeError?)
-- How to write good code, clear and covered by tests
+- How to write good code, clean and covered by tests
 
 # Tools - Software
 
@@ -20,6 +22,7 @@ Python programming lessons for beginners
 + SourceTree: a visual tool to manage Git repositories (it requires an Atlassian account)
 + PyCharm: a great IDE with many features for writing Python code
 + Visual Studio Code: a simple (but very flexible) general purpose editor 
++ CodeWars account (suggested)
 
 ## FAQ
 
@@ -55,10 +58,9 @@ If you run the test.py it executes all the test cases and return the result in t
 1. from the menu use the _open folder_ command and select he path of your local project (the directory that contains _main.py_).
 2. open _main.py_ or _test.py_
 3. Press _F5_ (it is usually the shortcut for _run debug_)
+      
    
-   
-   
- # Links
+# Links
  
- - [Try Git in 15 minutes](https://try.github.io) 
+ - [Try Git in 15 minutes interactive tutorial](https://try.github.io) 
  - [CodeWars simple Python Kata](http://www.codewars.com/kata/search/python?q=&r%5B%5D=-8&beta=false&order_by=popularity+desc)
