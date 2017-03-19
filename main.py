@@ -2,23 +2,33 @@
 # this is the method to find the "best ravel"
 def find_the_best_travel(distances, max_cities, max_distance):
 
-    result = 0  # initialize the variable we want to use
+    travel_distance = 0  # initialize the variable we want to use
 
-    # return the first 2 distances found in the array
-    result = result + distances[0]  # add the distances in the position "0" (arrays is zero-based: the first item is in position "0")
-    result += distances[1]  # this is te same command as the previous but it takes the second item (= position "1")
+    # return the first 2 distances found in the array (wrong solution)
+    travel_distance = travel_distance + distances[0]  # add the distances in the position "0" (arrays is zero-based: the first item is in position "0")
+    travel_distance += travel_distance[1]  # this is te same command as the previous but it takes the second item (= position "1")
 
-    ## try yourself to use a "for" loop on distances
-    ## suggestion: to use the bigger values first sort the array and reverse it (use .sort() and .reverse() functions)
+    # ###############################################
+    # ###    TRY YOURSELF TO SOLVE THE PROBLEM    ###
+    # ###############################################
 
-    return result
+    # 1. create an empty list  ( = [])
+    # ... and a "cities counter" variable
+    # ... and a "current distance"
+    # 2. use a "for" to loop trough the distances
+    # 3. if both the "cities counter" and "current distances" does not exceed the limits (max_cities and max_distance)
+    # ... add it to the "travel_distance"
+
+    # suggestion: to use the bigger values first sort the array and reverse it (use .sort() and .reverse() functions)
+
+    return travel_distance
 
 
 # this is a function named "main" and it has no parameters
 def main():
 
-    ## these are the values we want to use to test our function
-    distances = [1, 3, 5]  # this is the aray of distances
+    # these are the values we want to use to test our function
+    distances = [1, 3, 5]  # this is the list of distances
     max_cities = 2  # this is the max number of cities to visit
     max_distance = 8  # this is the
 
