@@ -17,6 +17,12 @@ Python programming lessons for beginners
 - How find and use the [DOCS](http://docs.python.org) (Python documentation). (example: str() can raise a TypeError?)
 - How to write good code, clean and covered by tests
 
+## Fir beginners
+
+- What is Python and how it works
+- Hello World, your first Python program (and explanation)
+- strings
+
 # Tools - Software (all free)
 
 + GitHub account
@@ -57,9 +63,17 @@ If you run the test.py it executes all the test cases and return the result in t
 
 (super simple) 
 1. from the menu use the _open folder_ command and select he path of your local project (the directory that contains _main.py_).
+1.1 If is the first time a .py file is open follow the suggestion and install the "Python Linting" extension
 2. open _main.py_ or _test.py_
 3. Press _F5_ (it is usually the shortcut for _run debug_)
+4. If not configured it ask for which executable to use, select "Python"
+
       
+
+### How to
+
+- To make possible to insert values for "input()" you have to ?????????
+- On the first run it hask which "execuable" use 
    
 # Links
  
