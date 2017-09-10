@@ -1,14 +1,12 @@
 # Python Programming Lessons
-Python programming lessons for beginners
 
- # Abstract
- 
- This repository is intended to be used _by_ and _for_ beginner developers that participate to the lessons.  
- It make possible to the teacher and to the students to have a common shared code and references.  
+This repository is intended to be used _by_ and _for_ beginner developers that participate to the lessons.  
+It make possible to the teacher and to the students to have a common shared code and references.  
 
-# Topics
+## Topics
 
-- Write and run your "Hello World" in Python
+- Explain what is Python, how it works, basic concepts
+- Write and run your first Python program: "Hello World"
 - Kata [Multiply](http://www.codewars.com/kata/multiply)
 - Kata ["Best travel"](https://www.codewars.com/kata/best-travel/python)
 - Kata ["Can you get the loop ?"](http://www.codewars.com/kata/can-you-get-the-loop)
@@ -16,15 +14,16 @@ Python programming lessons for beginners
 - How find and use the [DOCS](http://docs.python.org) (Python documentation). (example: str() can raise a TypeError?)
 - How to write good code, clean and covered by tests
 
-# Tools - Software (all free)
+## Tools - Software (all free)
 
++ Python 3 installed on your PC
++ Visual Studio Code: a simple (but very flexible) general purpose editor 
 + GitHub account
 + SourceTree: a visual tool to manage Git repositories (it requires an Atlassian account)
 + PyCharm: a great IDE with many features for writing Python code
-+ Visual Studio Code: a simple (but very flexible) general purpose editor 
 + CodeWars account (suggested)
 
-## FAQ
+### FAQ
 
 **Q. SourceTree returns an error when I try to commit/push my local changes.**  
 **A.**  
@@ -42,7 +41,14 @@ Both "main.py" and "test.py" can be run.
 If you run "main.py" it just execute the main() program that shows "Python lesson".
 If you run test.py it execute a predefined list of tests against the implemented function and shows the results.
 
-## PyCharm
+### Visual Studio Code
+
+(super simple) 
+1. from the menu use the _open folder_ command and select he path of your local project (the directory that contains _main.py_).
+2. open _main.py_ or _test.py_
+3. Press _F5_ (it is usually the shortcut for _run debug_)
+
+### PyCharm
 
 (not immediate to set)  
 To "run" something you need to configure it in the "Configurations".
@@ -52,15 +58,9 @@ If you run the test.py it executes all the test cases and return the result in t
 
 **In order to run the program** (main.py or test.py) you have to create a **configuration** for "Python" and select "test.py" to run the test.py 
 
-## Visual Studio Code
-
-(super simple) 
-1. from the menu use the _open folder_ command and select he path of your local project (the directory that contains _main.py_).
-2. open _main.py_ or _test.py_
-3. Press _F5_ (it is usually the shortcut for _run debug_)
       
    
-# Links
+## Links
  
  - [Try Git in 15 minutes interactive tutorial](https://try.github.io) 
  - [CodeWars simple Python Kata](http://www.codewars.com/kata/search/python?q=&r%5B%5D=-8&beta=false&order_by=popularity+desc)
