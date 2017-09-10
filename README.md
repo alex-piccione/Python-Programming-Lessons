@@ -16,12 +16,12 @@ It make possible to the teacher and to the students to have a common shared code
 
 ## Tools - Software (all free)
 
-+ Python 3 installed on your PC
-+ Visual Studio Code: a simple (but very flexible) general purpose editor 
-+ GitHub account
-+ SourceTree: a visual tool to manage Git repositories (it requires an Atlassian account)
-+ PyCharm: a great IDE with many features for writing Python code
-+ CodeWars account (suggested)
++ [Python 3](https://www.python.org/downloads/) installed on your PC
++ [Visual Studio Code](https://code.visualstudio.com/): a simple (but very flexible) general purpose editor 
++ [GitHub](https://github.com/) account
++ [SourceTree](https://www.sourcetreeapp.com/): a visual tool to manage Git repositories (it requires an Atlassian account)
++ [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (community edition is free)
++ [CodeWars](https://www.codewars.com/) account (suggested)
 
 ### FAQ
 
