@@ -20,7 +20,7 @@ It make possible to the teacher and to the students to have a common shared code
 + [Visual Studio Code](https://code.visualstudio.com/): a simple (but very flexible) general purpose editor 
 + [GitHub](https://github.com/) account
 + [SourceTree](https://www.sourcetreeapp.com/): a visual tool to manage Git repositories (it requires an Atlassian account)
-+ [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (community edition is free)
++ [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (the community edition is free)
 + [CodeWars](https://www.codewars.com/) account (suggested)
 
 ### FAQ
