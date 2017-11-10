@@ -11,7 +11,7 @@ This note is intended to be used ag guide for lessons to beginners.
 - Storing data in variables
 - Data types
 - Input data from the console
-- Simple math operations (+, -, *, /)
+- Simple math operations (+, -, *, /, %)
 
 ### Lesson 
 
