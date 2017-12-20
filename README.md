@@ -14,14 +14,26 @@ It make possible to the teacher and to the students to have a common shared code
 - How find and use the [DOCS](http://docs.python.org) (Python documentation). (example: str() can raise a TypeError?)
 - How to write good code, clean and covered by tests
 
-## Tools - Software (all free)
+## Tools (all free)
 
 + [Python 3](https://www.python.org/downloads/) installed on your PC
+
+## Editors
 + [Visual Studio Code](https://code.visualstudio.com/): a simple (but very flexible) general purpose editor 
-+ [GitHub](https://github.com/) account
++ [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (the community edition is 
 + [SourceTree](https://www.sourcetreeapp.com/): a visual tool to manage Git repositories (it requires an Atlassian account)
-+ [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (the community edition is free)
-+ [CodeWars](https://www.codewars.com/) account (suggested)
+free)
+
+## Web sites
+
++ [GitHub](https://github.com/) account
++ [CodeWars](https://www.codewars.com/) account (can be linked to the GitHub account)
+
+
+## Resources
+
++ https://www.python-course.eu
+
 
 ### FAQ
 
