@@ -1,0 +1,22 @@
+Date: 2017-12-21 19:41:37
+
+
+# Bitfinex
+	XRP/USD: 1.0227
+	XRP/BTC: 1.04221
+
+# Binance
+	XRP/BTC: 1.06428
+	XRP/ETH: 1.05753
+
+# Bitstamp
+	XRP/USD: 1.0297
+	XRP/BTC: 1.04021
+
+# Gatehub
+	XRP/BTC: 0.861669
+	XRP/USD: 0.850489
+	XRP/ETH: 0.850079
+
+# Gate.io
+	XRP/BTC: 1.05255
