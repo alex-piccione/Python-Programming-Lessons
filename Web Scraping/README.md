@@ -29,6 +29,13 @@ A complete working example is in [Final Example](Final%20Example/README.md).
 - Save the data on a database to have historical information (MongoDB ?)
 
 
+## Version 2
+
+- Show the data in a Window (UI)  (WIP)
+- Run the scraping process repeadetly with a defined delay  (TODO)
+- Show icons to show price change (up/down). Example here: https://bx.in.th  (TODO)
+
+
 ## Known issues and Open questions
 
 None. It's perfect!

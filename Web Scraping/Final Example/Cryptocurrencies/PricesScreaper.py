@@ -7,11 +7,11 @@ from Cryptocurrencies.entities import Exchange, Market
 
 class PriceScraper():
 
-    def __init__(self, writer:FileWriter, filter=None):
+    def __init__(self, writer:FileWriter, filters=None):
         self.writer = writer
-        self.filter = filter
+        self.filters = filters
 
-    def run(self):
+    def run(self, filters=None):
 
         try:
             base_url = "https://coinmarketcap.com"
@@ -59,7 +59,7 @@ class PriceScraper():
             exchange_name = td_list[1].get_text()
             market_currencies = td_list[2].get_text()   
 
-            if ("exchanges" in self.filter and exchange_name not in self.filter["exchanges"]) or ("markets" in self.filter and market_currencies not in self.filter["markets"]):
+            if ("exchanges" in self.filters and exchange_name not in self.filters["exchanges"]) or ("markets" in self.filters and market_currencies not in self.filters["markets"]):
                 continue
 
             
