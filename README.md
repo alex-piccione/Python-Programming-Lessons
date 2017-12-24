@@ -26,10 +26,15 @@ It make possible to the teacher and to the students to have a common shared code
 
 + [Python 3](https://www.python.org/downloads/) installed on your PC
 + [Visual Studio Code](https://code.visualstudio.com/): a simple (but very flexible) general purpose editor 
-+ [GitHub](https://github.com/) account
 + [SourceTree](https://www.sourcetreeapp.com/): a visual tool to manage Git repositories (it requires an Atlassian account)
+
+## Web sites
+
++ [GitHub](https://github.com/)
 + [PyCharm](https://www.jetbrains.com/pycharm/): a great IDE with many features for writing Python code (the community edition is free)
-+ [CodeWars](https://www.codewars.com/) account (suggested)
++ [CodeWars](https://www.codewars.com/) (you can use your GitHub account) many well organized exercises (kata)
++ [CodinGame](https://www.codingame.com) (you can use your LinkedIn or Google account) as in CodeWars you can see solution of others users
++ [PyBite challenges](https://codechalleng.es/)
 
 
 ### FAQ
