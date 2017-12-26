@@ -1,0 +1,71 @@
+{
+    "Menus": [
+        {
+            "Id": 191049,
+            "RestaurantId": 54289,
+            "Title": "Collection  night",
+            "Description": "<strong>Offers cannot be used in conjunction with any other offers<br>\\r\\nIf you have any allergy from the food, please let the restaurant know before ordering</strong>",
+            "Type": {
+                "Id": 5,
+                "Name": "Collection  night",
+                "Description": "Collection ",
+                "Image": "takeaway_night.gif",
+                "IsDelivery": false
+            },
+            "PickupOrDeliveryTime": {
+                "Monday": "00:20:00",
+                "Tuesday": "00:20:00",
+                "Wednesday": "00:20:00",
+                "Thursday": "00:20:00",
+                "Friday": "00:20:00",
+                "Saturday": "00:20:00",
+                "Sunday": "00:20:00"
+            },
+            "AvailableDuring": {
+                "Monday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Tuesday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Wednesday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Thursday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Friday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Saturday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                },
+                "Sunday": {
+                    "OpeningTime": "11:00:00",
+                    "ClosingTime": "1.03:50:00",
+                    "Status": 0
+                }
+            },
+            "DeliveryCostBelowThreshold": 0.0,
+            "DeliveryCostAboveThreshold": 0.0,
+            "DeliveryThresholdOrderAmount": 0.0,
+            "ClosingWorkTime": "00:30:00",
+            "DeliveryCostExamples": null,
+            "CustomerReviewsSummary": null,
+            "Categories": null,
+            "Products": null
+        }
+    ]
+}
