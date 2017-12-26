@@ -1,7 +1,8 @@
-import requests
+import requests # we import this 3rd party package to manage HTTP requests/response
 
 api_key = "Basic VGVjaFRlc3RBUEk6dXNlcjI="  # obtained from public recruitment test repository
 
+# store the template out of the class, note the placeholder for the postcode
 url_api_for_GET_restaurants = "https://public.je-apis.com/restaurants?q={0}"
 
 class JustEatApiCaller:
@@ -10,23 +11,29 @@ class JustEatApiCaller:
 
         print("run get_restaurants for postcode {0}".format(postcode))
    
-        url = url_api_for_GET_restaurants.format(postcode)
+        url = url_api_for_GET_restaurants.format(postcode) # format the strin template "injecting" the postcode
 
+        # create the collection of HTTP headers that the server require
+        # it is a collection of key/value objects
         headers = {
-            "Accept-Tenant":"uk",
-            "Accept-Language":"en-GB",
+            "Accept-Tenant": "uk",
+            "Accept-Language": "en-GB",
             "Authorization": api_key,
-            "Host":"public.je-apis.com"
+            "Host": "public.je-apis.com"
         }
 
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers) # make a request with GET verb (passing the headers) and store the response 
 
-        if (response.status_code == 200):
-            response_object = response.json()
-            for restaurant in response_object["Restaurants"]:
-                print(restaurant["Name"])                
+        if (response.status_code == 200): # check if OK
+            response_object = response.json()  # convert the JSON content to a Python object
+            # the object is actually a dict so we can use the key to obtain is child, ex. item["subitem"]
+            # because Restaurants is an JavaScript array it is converted in something "iterable" (probably a list)
+            # so we can use a "for-in" loop 
+            for restaurant in response_object["Restaurants"]:   # item in 
+                print(restaurant["Name"])  # get the restaurant name using the "Name" key
+                # we can look to the obtained JSON to find the "keys" of the data we want to read
 
-        else:
+        else: # we have an error...
             print("... something got wrong. Response status code: {0}. Reason: {1}".format(response.status_code, response.reason))
        
         print ("\n\nend") 
