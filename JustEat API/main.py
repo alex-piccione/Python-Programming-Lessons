@@ -15,7 +15,7 @@ def start():
     print("-" * 70) # print "-" 70 times
     for restaurant in restaurants:
         # str.ljust(size) justify the text on the left and fill the extra space (to reach the "size") with the "dot" character 
-        print("{0} | {1}    | {2}".format(restaurant.name.ljust(50, "."), restaurant.rating, restaurant.menu_id))
+        print("{0} | {1}    | {2}".format(restaurant.name.ljust(50, "."), restaurant.rating, restaurant.menu.id))
 
         
 

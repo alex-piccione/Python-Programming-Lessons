@@ -1,7 +1,8 @@
 import requests # we import this 3rd party package to manage HTTP requests/response
 
-# from "filemame" import "class"
-from Restaurant import Restaurant   
+# from "filemame" import "class" and "class"
+from Restaurant import Restaurant
+from Menu import Menu   
 
 api_key = "Basic VGVjaFRlc3RBUEk6dXNlcjI="  # obtained from public recruitment test repository
 
@@ -42,8 +43,10 @@ class JustEatApiCaller:
                 rating = restaurant["RatingStars"]
                 menu_id = restaurant["DeliveryMenuId"]
                 
+                menu = Menu(menu_id) # create an instance of Menu 
+
                 # create an instance of Restaurant
-                restaurant = Restaurant(name, rating, menu_id)
+                restaurant = Restaurant(name, rating, menu) # pass it a Menu instead of the menu_id
 
                 # ass it to the list
                 restaurants.append(restaurant)
