@@ -1,6 +1,21 @@
-# Just Eat API
+# Restaurant Hygiene
 
 Use the public API to shows how to interact with Web API.
+
+
+## Sources
+
+Hygiene API  
+https://data.gov.uk/forum/food-hygiene-rating-data/uk-food-hygiene-ratings-data-api  
+- http://ratings.food.gov.uk/open-data/en-GB
+- http://api.ratings.food.gov.uk/help look at Estabilishment
+
+https://munchdb.com/
+
+
+## Goal
+
+Provide hygiene rating of restaurant in a specified area (poscode).  
 
 
 # Requirements

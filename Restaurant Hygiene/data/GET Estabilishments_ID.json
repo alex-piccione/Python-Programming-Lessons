@@ -1,0 +1,44 @@
+{
+    "FHRSID": 528740,
+    "LocalAuthorityBusinessID": "PI/000004536",
+    "BusinessName": "\"La Pasta Del Sole\"",
+    "BusinessType": "Retailers - other",
+    "BusinessTypeID": 4613,
+    "AddressLine1": "",
+    "AddressLine2": "",
+    "AddressLine3": "",
+    "AddressLine4": "",
+    "PostCode": "BN8 ",
+    "Phone": "",
+    "RatingValue": "5",
+    "RatingKey": "fhrs_5_en-gb",
+    "RatingDate": "2014-06-24T00:00:00",
+    "LocalAuthorityCode": "105",
+    "LocalAuthorityName": "Lewes",
+    "LocalAuthorityWebSite": "http://www.lewes.gov.uk/",
+    "LocalAuthorityEmailAddress": "ehealth@lewes.gov.uk",
+    "scores": {
+        "Hygiene": 5,
+        "Structural": 5,
+        "ConfidenceInManagement": 5
+    },
+    "SchemeType": "FHRS",
+    "geocode": {
+        "longitude": null,
+        "latitude": null
+    },
+    "RightToReply": "",
+    "Distance": null,
+    "NewRatingPending": false,
+    "meta": {
+        "dataSource": "Lucene",
+        "extractDate": "0001-01-01T00:00:00",
+        "itemCount": 0,
+        "returncode": "OK",
+        "totalCount": 1,
+        "totalPages": 1,
+        "pageSize": 1,
+        "pageNumber": 1
+    },
+    "links": []
+}
