@@ -1,0 +1,44 @@
+last update: 2018-01-06
+supersets:
+
+  - superset: 1
+    benefits: { chest: 10, legs: 0 }
+    days:
+      - day: 1
+        name: "Chest..."
+        total exercises: 12
+        equipment: 
+          - bench
+          - dumbbells
+        plans:
+          - A1: 
+            nset": 4
+            rest": 2
+            exercises:
+              - name: Dumbbell press
+                picture: dumbbell_press.jpg
+                nreps: 8
+              - name: Dumbbell flye
+                picture: dumbbell_flye.jpg
+                nreps: 8
+
+          - A2:
+            nset: 3
+            rest: 2
+            exercises:
+              - name: Exercise XXX
+                picture: exercise_XXX.jpg
+                nreps: 10
+              - name: Exercise YYY
+                picture: exercise_YYY.jpg
+                nreps: 10
+
+          # continue to add plans here (B1, B2...)
+
+      - day: 2
+        name: Bla bla bla
+        # continue to add stuff here
+
+  - superset 2:
+    benefits: {}
+    # continue to add stuff here

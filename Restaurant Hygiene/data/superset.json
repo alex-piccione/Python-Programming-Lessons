@@ -1,0 +1,68 @@
+{
+    "last update": "2018-01-06",
+    "supersets": [
+        {
+            "name": "superset 1",
+            "benefits": [
+                {
+                    "chest": 10
+                },
+                {
+                    "legs": 0
+                }
+            ],
+            "days": [
+                {
+                    "day": 1,
+                    "name": "Chest...",
+                    "total_exercises": 12,
+                    "equipment": [
+                        "bench",
+                        "dumbbells"
+                    ],
+                    "plans": [
+                        {
+                            "number": 1,
+                            "nset": 4,
+                            "rest": 2,
+                            "exercises": [
+                                {
+                                    "name": "Dumbbell press",
+                                    "picture": "dumbbell_press.jpg",
+                                    "nreps": 8
+                                },
+                                {
+                                    "name": "Dumbbell flye",
+                                    "picture": "dumbbell_flye.jpg",
+                                    "nreps": 8
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "nset": 3,
+                            "exercises": [
+                                {
+                                    "name": "Exercise XXX",
+                                    "picture": "exercise_XXX.jpg",
+                                    "nreps": 10
+                                },
+                                {
+                                    "name": "Exercise YYY",
+                                    "picture": "exercise_XXX.jpg",
+                                    "nreps": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "day": 2
+                }
+            ]
+        },
+        {
+            "name": "superset 2"
+        }
+    ]
+}
